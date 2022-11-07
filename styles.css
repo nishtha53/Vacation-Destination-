@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
 h1 , h2, h3, h4, ul, li , p {
     margin: 0;
     padding: 0;
+    font-weight: bold;
 }
 
 img{
@@ -8,7 +11,7 @@ img{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #333;
 }
 
