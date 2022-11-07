@@ -8,13 +8,44 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
 
-	<!-- Our CSS -->
+    <!--  CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Our JavaScript -->
+    <header>
+        <h1>Vacation destination WishList</h1>
+        <p>Found exited places to visit on your next vacation? Use the form below to add them to your wish list.</p>
+    </header>
+
+    <main>
+        <form id="destination_details_form">
+
+            <label for="name">Enter Destination name: </label>
+            <input type="text" id="name"  placeholder="Enter name of destination"   required />
+
+            <label for="location">Enter Destination Location: </label>
+            <input type="text" id="location"  placeholder="Enter Location"  required />
+
+            <label for="photo">Enter Destination picture: </label>
+            <input type="url" id="photo"  placeholder="Enter Image of Destination" />
+
+            <label for="description">Enter Description: </label>
+            <textarea id="description"  placeholder="Enter description of destination"></textarea>
+
+            <button type="submit">Add to wishlist</button>
+        </form>
+
+        <article>
+            <h2 id="title">Enter destination details</h2>
+            <div id="destinations_container">
+                    
+            </div>
+        </article>
+    </main>
+
+    <!--  JavaScript -->
     <script src="script.js"></script>
 </body>
 
