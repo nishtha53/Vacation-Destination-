@@ -14,7 +14,7 @@ body{
 
 header{
     padding: 50px;
-    background-color: cornflowerblue;
+    background-color: #98A8F8;
     text-align: center;
     color: white;
     margin-bottom: 20px;
@@ -52,7 +52,7 @@ input, textarea, #destinations_details_form  button{
     display: block;
     width: 100%;
     margin-bottom: 1em;
-    border: 1px solid #666;
+    border: 1px solid #98A8F8;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -61,4 +61,11 @@ input, textarea, #destinations_details_form  button{
     padding: 20px;
     background-color: #efefef;
     margin-bottom: 20px;
+}
+
+button{
+    background-color: #98A8F8;
+    outline: none;
+    border: 1px solid #98A8F8;
+    color: #efefef;
 }
